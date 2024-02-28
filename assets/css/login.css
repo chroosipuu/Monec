@@ -1,0 +1,428 @@
+body {
+  width: 100dvw;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  background-image: url(../img/login-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* main --------------------------------------------------------------------------------------------------------*/
+main {
+  padding: 92px 40px 120px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 102px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+main > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+main h2,
+main h1 {
+  font-size: 48px;
+}
+main h1 {
+  margin-bottom: 40px;
+}
+.header {
+  position: sticky;
+}
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 380px;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.login-form button {
+  background-color: white;
+  color: var(--dark);
+  padding: 0px 54px;
+  border-radius: 9999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: none;
+  height: 38px;
+}
+.login-form.error .field input {
+  border-color: #ff4d4d;
+}
+.field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 380px;
+  width: 100%;
+}
+.login-form > div:nth-child(1) {
+  margin-bottom: 32px;
+}
+.login-form button {
+  margin-top: 50px;
+}
+.error-message {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  width: 100%;
+  font-weight: 400;
+}
+.field label {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 18px;
+}
+.field input {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 9999px;
+  padding: 0px 24px;
+  height: 46px;
+  outline-color: white;
+  color: white;
+}
+.field input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.field input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.field input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.field input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.field input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.explore h2 {
+  margin-bottom: 28px;
+}
+main h3 {
+  font-size: 22px;
+  margin-bottom: 52px;
+}
+.explore > span:nth-child(2) {
+  font-size: 22px;
+  margin-bottom: 48px;
+}
+
+.explore > span:nth-child(3) {
+  font-size: 32px;
+  margin-bottom: 48px;
+}
+.explore > span:nth-child(4) {
+  font-size: 22px;
+  margin-bottom: 28px;
+}
+.explore > span:nth-child(5) {
+  font-size: 22px;
+  margin-bottom: 28px;
+}
+.explore > span:nth-child(6) {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid var(--white-50);
+  border-radius: 9999px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 10px;
+  outline-color: white;
+  width: 100%;
+  max-width: 400px;
+}
+.contact.error form {
+  border-color: var(--danger);
+}
+
+.contact form input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 24px;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  max-width: 300px;
+}
+.contact form input:-webkit-autofill,
+.contact form input:-webkit-autofill:hover,
+.contact form input:-webkit-autofill:focus,
+.contact form input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000000s ease-in-out 0s;
+  transition: background-color 5000000s ease-in-out 0s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+}
+.contact form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact form input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact form input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact form input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.contact form button {
+  border: none;
+  padding: 10px 28px;
+  background: white;
+  border-radius: 9999px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--dark);
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 400;
+  height: 38px;
+}
+
+.info .success {
+  display: none;
+  font-size: 18px;
+}
+.info .error {
+  text-align: center;
+  display: none;
+}
+
+.contact.success .info .success {
+  display: block;
+}
+.contact.error .info .error {
+  display: block;
+}
+/* main --------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+  .login-form {
+  }
+  .login-form button {
+    margin-top: 32px;
+  }
+  .error-message {
+    bottom: 45px;
+  }
+  .contact form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: none;
+    gap: 28px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+  }
+  .contact form input {
+    border: 1px solid var(--white-50);
+    padding: 12px 24px;
+    border-radius: 9999px;
+    text-align: center;
+  }
+  .contact form button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contact.error form input {
+    border-color: var(--danger);
+  }
+
+  main {
+    gap: 92px;
+    padding: 92px 40px 92px;
+  }
+  main h2,
+  main h1 {
+    font-size: 40px;
+  }
+  main h3,
+  .explore > span:nth-child(2) {
+    font-size: 20px;
+  }
+  .explore span:nth-child(3) {
+    margin-bottom: 40px;
+  }
+  .explore span:nth-child(4) {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+  .explore span:nth-child(5) {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  main h1,
+  main h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+  main h3,
+  .explore > span:nth-child(2) {
+    margin-bottom: 38px;
+  }
+  .explore span:nth-child(3) {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url(../img/login-2.webp);
+  }
+  .explore > span:nth-child(3) {
+    font-size: 24px;
+  }
+  login-form > div:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  .login-form button {
+    margin-top: 40px;
+  }
+  .error-message {
+    bottom: 50px;
+  }
+  .info {
+    font-size: 14px;
+  }
+  main {
+    padding: 80px 40px 32px;
+  }
+  main h1,
+  main h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  main {
+    padding: 80px 20px 34px;
+  }
+}
+
+@media (hover: hover) {
+  .contact form button:hover {
+    opacity: 0.6;
+  }
+  .login-form button:hover {
+    opacity: 0.6;
+  }
+}
+@media (hover: none) {
+  .contact form button:active {
+    opacity: 0.6;
+  }
+  .login-form button:active {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,116 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+@font-face {
+  font-family: Nobel;
+  src: url(../font/Nobel-Regular-1.woff) format(woff),
+    url(../font/Nobel-Regular-1.woff2) format(woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nobel;
+  src: url(../font/Nobel-Light-Regular.woff) format(woff),
+    url(../font/Nobel-Light-Regular.woff2) format(woff2);
+  font-weight: 300;
+}
+picture {
+  height: 100%;
+  width: 100%;
+}
+a:link {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:active {
+  text-decoration: none !important;
+}
+a:visited {
+  text-decoration: none !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-transition: background-color 5000000s ease-in-out 0s;
+  transition: background-color 5000000s ease-in-out 0s;
+}
+strong {
+  font-weight: 400;
+  line-height: inherit;
+}
+.nowrap {
+  white-space: nowrap !important;
+}
+.tr-px {
+  letter-spacing: 0.8px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+:root {
+  --foreground: #edf4f7;
+  --danger: #ff4d4d;
+  --dark: #262626;
+  --dark-50: rgba(26, 26, 26, 0.5);
+  --white-50: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  line-height: 130%;
+  font-family: Nobel, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+input {
+  font-size: 16px;
+  font-weight: 400;
+}
+input[type="text"] {
+  line-height: 100%;
+}
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.auto-width {
+}
+
+.en-contact-width {
+  max-width: 385px;
+  width: 100%;
+}
+.es-contact-width {
+  max-width: 460px;
+  width: 100%;
+}

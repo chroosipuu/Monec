@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Roosipuu;Jaak
+FN:Jaak Roosipuu
+ORG:Monec
+TITLE:Managing Partner
+TEL;TYPE=CELL,VOICE:+34 666200918
+EMAIL;TYPE=PREF,INTERNET:jaak.roosipuu@monec.com
+END:VCARD
